@@ -1,4 +1,5 @@
 rm -rf lib_managed
+rm -rf helloworld
 
 sbt clean package
 

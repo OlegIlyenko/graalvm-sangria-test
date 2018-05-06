@@ -7,12 +7,14 @@ Prerequisites:
 * [Sbt](https://www.scala-sbt.org/download.html)
 * [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (for sbt)
 
-I prepared a script that you can just run to do all the steps that reproduce the problem (it compiles and packages Sbt project, executes native-image and runs the resulting executable):
+I prepared a script [create-native-image.sh](https://github.com/OlegIlyenko/graalvm-sangria-test/blob/master/create-native-image.sh) that you can just run to do all the steps that reproduce the problem (it compiles and packages Sbt project, executes native-image and runs the resulting executable):
 
 ```bash
 chmod a+x create-native-image.sh
 ./create-native-image.sh
 ```
+
+The reflection use (by scala's `TrieMap`) is configured in [reflection.json](https://github.com/OlegIlyenko/graalvm-sangria-test/blob/master/reflection.json). 
 
 The image compilation is successful, but following exception is thrown:
 

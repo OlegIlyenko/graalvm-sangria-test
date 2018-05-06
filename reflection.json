@@ -1,0 +1,9 @@
+[
+  {
+    "name": "scala.collection.concurrent.TrieMap",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  }
+]

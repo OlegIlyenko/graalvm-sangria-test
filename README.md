@@ -1,5 +1,7 @@
 
-This repo is an attempt to reproduce the issue with GraalVM CE 1.0.0-rc1 with results in `java.lang.InternalError` coming from `AtomicReferenceFieldUpdater`.
+This repo is an attempt to reproduce the issue with GraalVM CE 1.0.0-rc1 with results in `java.lang.InternalError` coming from `AtomicReferenceFieldUpdater`:
+
+https://github.com/oracle/graal/issues/406
 
 Prerequisites:
 

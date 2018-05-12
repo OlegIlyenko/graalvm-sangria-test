@@ -10,5 +10,5 @@ mainClass in Compile := Some("Main")
 retrieveManaged := true
 
 libraryDependencies ++= Seq(
-  "org.sangria-graphql" %% "sangria" % "1.4.0",
+  "org.sangria-graphql" %% "sangria" % "1.4.1",
   "org.sangria-graphql" %% "sangria-circe" % "1.2.1")
